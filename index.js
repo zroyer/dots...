@@ -1,5 +1,6 @@
 const process = require('process');
 const readline = require('readline');
+const chalk = require('chalk');
 const std = process.stdout;
 
 class Spinner {
@@ -16,7 +17,7 @@ class Spinner {
         line = spinners[index];
       }
 
-      std.write(line);
+      std.write(chalk.green(line));
       readline.cursorTo(std, 0);
       index = index >= spinners.length ? 0 : index + 1;
     }, 100);

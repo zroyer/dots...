@@ -1,0 +1,22 @@
+{
+  "name": "spinner",
+  "version": "1.0.0",
+  "description": "Node CLI loading spinner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zroyer/spinner.git"
+  },
+  "author": "@zroyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zroyer/spinner/issues"
+  },
+  "homepage": "https://github.com/zroyer/spinner#readme",
+  "dependencies": {
+    "chalk": "^2.4.2"
+  }
+}
