@@ -6,4 +6,4 @@ Node.js CLI loading dots
 - `npm install`  
 - `node index.js`  
 
-![Screenshot](http://i.imgur.com/OOXl1u3.gif)
+![Screenshot](http://i.imgur.com/uYrARRK.gif)
