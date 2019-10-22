@@ -1,2 +1,2 @@
 # spinner
-Node.js CLI spinner
+Node.js CLI loading dots
