@@ -1,7 +1,7 @@
 {
-  "name": "spinner",
+  "name": "dots",
   "version": "1.0.0",
-  "description": "Node CLI loading spinner",
+  "description": "Node.js CLI loading dots",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
