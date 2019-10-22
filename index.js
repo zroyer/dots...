@@ -31,7 +31,7 @@ class Spinner {
       std.write(chalk.magenta(line));
       readline.cursorTo(std, 0);
       index = index >= spinners.length ? 0 : index + 1;
-    }, 350);
+    }, 300);
   }
 }
 
