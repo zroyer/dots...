@@ -22,7 +22,6 @@ class Spinner {
 
     setInterval(() => {
       let line = spinners[index];
-
       if (!line) {
         index = 0;
         line = spinners[index];
@@ -31,7 +30,7 @@ class Spinner {
       std.write(chalk.magenta(line));
       readline.cursorTo(std, 0);
       index = index >= spinners.length ? 0 : index + 1;
-    }, 300);
+    }, 250);
   }
 }
 
