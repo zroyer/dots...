@@ -1,4 +1,4 @@
-# dots...
+# dots
 Node.js CLI loading dots
 
 ### Instructions
